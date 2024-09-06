@@ -1,1 +1,82 @@
 /* Ini CSS */
+
+.main-header {
+    text-align: center;
+}
+
+.selection-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.selection-button {
+    height: 32px;
+    border: none;
+    border-radius: 8px;
+}
+
+.green-button {
+   background-color: rgb(208, 250, 110);
+}
+
+.grey-button {
+    background-color: beige;
+}
+
+.luas-segitiga-header {
+    text-align: center;
+    border: 1px solid;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    margin: 0px;
+    background-color: bisque;
+}
+
+.luas-segitiga-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.luas-segitiga-img {
+    height: 300px;
+    width: 300px;
+    background-image: url(
+        https://3.bp.blogspot.com/-CBSOhIMNT_Y/V3vcgve8OKI/AAAAAAAACqs/iEVPFr_h_OgjNxtVRXv6J5fWaG6ZgnOvQCLcB/s1600/Rumus%2Bluas%2Bdan%2Bkeliling%2Bsegitiga%2Bsama%2Bsisi.jpg
+    );
+    background-size: cover;
+    background-position: center;
+    align-self: center;
+
+}
+
+.luas-segitiga-form-header {
+    text-align: center;
+}
+
+.input-wrapper {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.input-wrapper>input {
+    width: 65%;
+}
+
+.input[type=number] {
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.main-content {
+    display: flex;
+}
+
+.main-content>aside {
+    flex: 1;
+}
