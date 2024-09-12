@@ -23,36 +23,36 @@
         <section class="main-content">
             <aside>
                 <header>
-                    <div class="luas-segitiga-header"> Luas Segitiga </div>
+                    <div class="luas-segitiga-header"> Keliling Segitiga </div>
                 </header>
     
                 <article class="luas-segitiga-content">
                     <div class="luas-segitiga-img"></div>
-                    <p> Rumus Luas Segitiga : </p>
+                    <p> Rumus Keliling Segitiga : a + b + c  </p>
                 </article>
     
                 <hr>
                 
                 <form>
                     <header>
-                        <h1 class="luas-segitiga-form-header"> Hitung Luas Segitiga </h1>
+                        <h1 class="luas-segitiga-form-header"> Hitung Keliling Segitiga </h1>
                     </header>
     
-                    <div class="input-wrapper"> 
-                        <label for="panjang-alas"> Panjang Alas : </label>
-                        <input id="panjang-alas" type="number"/>
-                    </div>
-                    <div class="input-wrapper">
-                        <label for="tinggi-2"> Tinggi : </label>
-                        <input id="tinggi-2" type="number" />
-                    </div>
-    
-                    <p id="result"> Hasil Perhitungan</p>
-    
-                    <button onclick="validateLuas()" type="button"> Hitung </button>
+                    <label for="alas-segitiga">Alas:</label>
+                    <input type="number" id="alas-segitiga" placeholder="Masukkan alas"><br>
+                    <label for="tinggi-segitiga">Tinggi:</label>
+                    <input type="number" id="tinggi-segitiga" placeholder="Masukkan tinggi"><br>
+                    <label for="sisi1-segitiga">Sisi 1:</label>
+                    <input type="number" id="sisi1-segitiga" placeholder="Masukkan sisi 1"><br>
+                    <label for="sisi2-segitiga">Sisi 2:</label>
+                    <input type="number" id="sisi2-segitiga" placeholder="Masukkan sisi 2"><br>
+                    <label for="sisi3-segitiga">Sisi 3:</label>
+                    <input type="number" id="sisi3-segitiga" placeholder="Masukkan sisi 3"><br>
+                    <button type="button" onclick="hitungKeliling()">Hitung Keliling Segitiga</button>
+                    <p id="hasil-keliling"></p>
+                    
                 </form>
             </aside>
-    
             <aside>
                 <header>
                     <div class="luas-segitiga-header"> Luas Segitiga </div>
@@ -60,7 +60,7 @@
     
                 <article class="luas-segitiga-content">
                     <div class="luas-segitiga-img"></div>
-                    <p> Rumus Luas Segitiga : </p>
+                    <p> Rumus Luas Segitiga : 1/2 ( a x t ) </p>
                 </article>
     
                 <hr>
@@ -69,25 +69,23 @@
                     <header>
                         <h1 class="luas-segitiga-form-header"> Hitung Luas Segitiga </h1>
                     </header>
-    
-                    <div class="input-wrapper"> 
-                        <label for="panjang-alas"> Panjang Alas : </label>
-                        <input id="panjang-alas" type="number" />
-                    </div>
-                    <div class="input-wrapper">
-                        <label for="tinggi"> Tinggi : </label>
-                        <input id="tinggi" type="number" />
-                    </div>
-    
-                    <p id="result"> Hasil Perhitungan</p>
-    
-                    <button> Hitung </button>
+
+                    <label for="alas-segitiga">Alas:</label>
+                    <input type="number" id="alas-segitiga" placeholder="Masukkan alas"><br>
+                    <label for="tinggi-segitiga">Tinggi:</label>
+                    <input type="number" id="tinggi-segitiga" placeholder="Masukkan tinggi"><br>
+                    <label for="sisi1-segitiga">Sisi 1:</label>
+                    <input type="number" id="sisi1-segitiga" placeholder="Masukkan sisi 1"><br>
+                    <label for="sisi2-segitiga">Sisi 2:</label>
+                    <input type="number" id="sisi2-segitiga" placeholder="Masukkan sisi 2"><br>
+                    <label for="sisi3-segitiga">Sisi 3:</label>
+                    <input type="number" id="sisi3-segitiga" placeholder="Masukkan sisi 3"><br>
+                    <button type="button" onclick="hitungLuas()">Hitung Luas Segitiga</button>
+                    <p id="hasil-luas"></p>
                 </form>
             </aside>
         </section>
     </main>
-
     <script src="js\script.js"></script>
 </body>
-
 </html>
